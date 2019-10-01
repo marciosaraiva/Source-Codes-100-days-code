@@ -1,0 +1,72 @@
+---
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .Rmd
+      format_name: rmarkdown
+      format_version: '1.1'
+      jupytext_version: 1.2.4
+  kernelspec:
+    display_name: Python 3
+    language: python
+    name: python3
+---
+
+Exercise: **Extremely Basic**
+
+Read 2 variables, named A and B and make the sum of these two variables, assigning its result to the variable X. Print X as shown below. Print endline after the result otherwise you will get “Presentation Error”.
+
+Input:
+The input file will contain 2 integer numbers.
+
+Output:
+Print the letter X (uppercase) with a blank space before and after the equal signal followed by the value of X, according to the following example.
+
+Obs.: don't forget the endline after all.
+
+```{python}
+x = int(input())
+y = int(input())
+
+print("X =",x+y)
+```
+
+<hr widght=1>
+
+
+Exercise: **Area of a Circle**
+
+The formula to calculate the area of a circumference is defined as A = π . R2. Considering to this problem that π = 3.14159:
+
+Calculate the area using the formula given in the problem description.
+
+Input:
+The input contains a value of floating point (double precision), that is the variable R.
+
+Output:
+Present the message "A=" followed by the value of the variable, as in the example bellow, with four places after the decimal point. Use all double precision variables. Like all the problems, don't forget to print the end of line after the result, otherwise you will receive "Presentation Error".
+
+```{python}
+R = float(input())
+print("A={:.4f}".format((R**2)*3.14159))
+```
+
+<hr widght=1>
+
+
+Exercise: **Simple Sum**
+
+Read two integer values, in this case, the variables A and B. After this, calculate the sum between them and assign it to the variable SOMA. Write the value of this variable.
+
+Input
+The input file contains 2 integer numbers.
+
+Output
+Print the variable SOMA with all the capital letters, with a blank space before and after the equal signal followed by the corresponding value to the sum of A and B. Like all the problems, don't forget to print the end of line, otherwise you will receive "Presentation Error"
+
+```{python}
+x = int(input())
+y = int(input())
+
+print("SOMA =",x+y)
+```
